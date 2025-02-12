@@ -1,2 +1,3 @@
-ALTER TABLE Students
-ADD Email VARCHAR(100);
+USE `UniversityDB`;
+ALTER TABLE `Students`
+ADD COLUMN IF NOT EXISTS `Email` VARCHAR(100);
