@@ -1,4 +1,5 @@
 USE `UniversityDB`;
 
 ALTER TABLE `Students`
-ADD COLUMN IF NOT EXISTS `Email` VARCHAR(100);
+ADD COLUMN `Email` VARCHAR(100)
+    AFTER `LastName`; 
