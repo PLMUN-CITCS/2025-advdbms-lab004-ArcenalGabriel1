@@ -1,3 +1,4 @@
 USE `UniversityDB`;
+
 ALTER TABLE `Students`
 ADD COLUMN IF NOT EXISTS `Email` VARCHAR(100);
