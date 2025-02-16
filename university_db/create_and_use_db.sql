@@ -1,9 +1,9 @@
 USE UniversityDB;
 
 CREATE TABLE Students (
-   StudentID int(11) PRIMARY KEY auto_increment,
-   FirstName varchar(50) NOT NULL,
-   LastName varchar(50) NOT NULL,
-   EnrollmentDate date, 
+   StudentID INT PRIMARY KEY AUTO_INCREMENT,
+   FirstName VARCHAR(50) NOT NULL,
+   LastName VARCHAR(50) NOT NULL,
+   EnrollmentDate DATE,
    Email VARCHAR(100)
 );
