@@ -5,5 +5,4 @@ CREATE TABLE Students (
    FirstName VARCHAR(50) NOT NULL,
    LastName VARCHAR(50) NOT NULL,
    EnrollmentDate DATE,
-   Email VARCHAR(100)
 );
